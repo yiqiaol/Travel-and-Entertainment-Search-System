@@ -1,0 +1,157 @@
+.container{
+	margin-top: 10px;
+}
+.container .jumbotron, .container-fluid .jumbotron{
+	padding-top: 10px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.icon{
+	overflow: hidden;
+}
+@keyframes myChange {
+  from {
+      left: -100%;
+  } to {
+      left: 0;
+  }
+}
+@keyframes myChangetwo{
+  from {
+      left: 100%;
+  } to {
+      left: 0;
+  }
+}
+
+@keyframes myChangethree{
+  from {
+      opacity: 0;
+  } to {
+      opacity: 1;
+  }
+}
+div{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.text-rating{
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	color: yellow;
+}
+.yelpReview.ng-hide-remove{
+	animation: 1s myChangethree;
+}
+.googleReview.ng-hide-remove{
+	animation: 1s myChangethree;
+}
+.animal.ng-hide-remove {
+  animation: 0.5s myChange;
+}
+
+#detail.ng-hide-remove{
+  animation: 0.5s myChangetwo;
+}
+.jumbotron{
+	background-color: #d9dde24a;
+}
+div {
+  left: 0;
+  position:relative;
+ 
+}
+.selected{
+	background-color: #F3E6BD;
+}
+.form-control.ng-touched.ng-invalid{
+	border-color: red;
+}
+
+#twitterButton{
+	padding:0;
+	border:none;
+	background-color: white;
+	margin-left: 5px;
+}
+.table>tbody>tr>td{
+	vertical-align: middle;
+}
+.con{
+	text-align: left;
+}
+.con1{
+	text-align: right;
+}
+#processbar{
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+
+.nav.nav-pills{
+	width: 100%;
+	margin:0 auto;
+
+}
+
+.card-body{
+	margin-top:0;
+	margin-bottom:10px; 
+	padding: 0;
+}
+.card h5{
+	color:blue;
+}
+
+#plag{
+	width: 180px;
+	margin:0 auto;
+}
+@media(min-width: 768px){
+    .card-columns {
+            column-count: 4;
+        }
+    }
+/*.card-columns {
+      column-count: 4;
+}*/
+h2{
+	text-align: center;
+}
+hr{
+	margin: 0px;
+}
+#detailButton{
+	float: right;
+	height: 30px;	
+}
+.tabs{
+	height: 50px;
+}
+
+p{
+	text-align: center;
+	font-size: 20px;
+}
+.con p{
+	text-align: left;
+}
+#map{
+	height:400px;
+}
+label{
+	text-align: left;
+}
+span.glyphicon.glyphicon-asterisk{
+	color:red;
+	font-size: 5px;
+	top:-5px;
+}
+.form-horizontal .control-label{
+	text-align: left;
+}
